@@ -1,0 +1,32 @@
+{
+  "name": "article-debug-node-chrome",
+  "version": "1.0.0",
+  "description": "Debugging NodeJS with Chrome Inspect",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon --inspect=0.0.0.0:9229 index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cacothi/article-debug-node-chrome.git"
+  },
+  "keywords": [
+    "nodejs",
+    "debug",
+    "inspect",
+    "chrome"
+  ],
+  "author": "Thiago Bernardes <tbernardes@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cacothi/article-debug-node-chrome/issues"
+  },
+  "homepage": "https://github.com/cacothi/article-debug-node-chrome#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
